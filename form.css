@@ -43,6 +43,7 @@ body{
     font-size: 80px;
     font-weight: 300;
     margin-bottom: 50px;
+    
 }
 
 input,.submit-btn{
@@ -89,6 +90,16 @@ input:focus::placeholder{
     color: rgba(255,255,255,0.5);
     display: block;
     margin: 30px auto;
+}
+
+.cross:hover,.cross:active{
+    color: #000;
+}
+.cross{
+    font-size: 30px;
+    margin-left: 445px;
+    color: #fff;
+    
 }
 
 .link:hover{
