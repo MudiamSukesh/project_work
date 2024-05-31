@@ -33,10 +33,16 @@ body{
 
 }
 .formbg{
-    background-image: linear-gradient(to right bottom,rgb(102, 0, 255),rgb(203, 28, 234),rgb(246, 150, 166));
+    
+    background-image:
+      radial-gradient(at 0 0, rgb(234, 0, 255), transparent 40%),
+      radial-gradient(at 0 40%, rgb(0, 55, 255), transparent 40%),
+      radial-gradient(at 40% 60%, rgb(174, 0, 255), transparent 80%),
+      radial-gradient(at 0 100%, rgb(119, 7, 238), transparent 80%);
+    background-attachment: fixed;
+   /*background-image: linear-gradient(to right bottom,rgba(0, 110, 255, 0.638),rgba(175, 87, 252, 0.741),rgba(207, 28, 234, 0.838));*/
     border-radius: 10px;
-    opacity: 0.9;
-}
+  }
 .heading{
     text-transform: capitalize;
     text-align: center;
